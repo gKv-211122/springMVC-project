@@ -34,4 +34,12 @@
  	
  	</bean>
  	
+ 	<!-- configuration multipart resolver -->
+ 	
+ 	<bean name="multipartResolver" 
+ 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+ 	
+ 	
+ 	
+ 	
  	</beans>
